@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11ebcf7f-0cc9-4675-afab-dd8af9b3fe69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/car pre.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/car pre.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +16,7 @@
     <SUITE FILE_PATH="coverage/car_pre$comment__summery.coverage" NAME="comment _summery Coverage Results" MODIFIED="1558188653571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/car_pre$dictionary_convert.coverage" NAME="dictionary_convert Coverage Results" MODIFIED="1558169298804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionary" />
     <SUITE FILE_PATH="coverage/car_pre$dictionary_convert__1_.coverage" NAME="dictionary_convert (1) Coverage Results" MODIFIED="1558169542155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/car_pre$wordCount.coverage" NAME="wordCount Coverage Results" MODIFIED="1558189251208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/car_pre$wordCount.coverage" NAME="wordCount Coverage Results" MODIFIED="1558194099986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/car_pre$_mongo.coverage" NAME="_mongo Coverage Results" MODIFIED="1558162098426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -23,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/commentPre.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -32,21 +34,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dictionary_convert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="132" column="17" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cartest.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mongo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-330">
+            <state relative-caret-position="22">
               <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordCount.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="453">
               <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wordCloudPlot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+              <folding>
+                <element signature="e#23#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,12 +113,14 @@
         <option value="$PROJECT_DIR$/commentPre.py" />
         <option value="$PROJECT_DIR$/Mongo.py" />
         <option value="$PROJECT_DIR$/wordCount.py" />
+        <option value="$PROJECT_DIR$/get_cloud.py" />
+        <option value="$PROJECT_DIR$/wordCloudPlot.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="265" />
-    <option name="y" value="-13" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1803" />
+    <option name="y" value="-9" />
     <option name="width" value="1824" />
     <option name="height" value="1074" />
   </component>
@@ -107,6 +140,11 @@
             <path>
               <item name="car pre" type="b2602c69:ProjectViewProjectNode" />
               <item name="car pre" type="462c0819:PsiDirectoryNode" />
+              <item name="car pre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="car pre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="car pre" type="462c0819:PsiDirectoryNode" />
               <item name="Dictionary" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -120,14 +158,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\YzShi\PycharmProjects\car pre\Dictionary" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\YzShi\PycharmProjects\car pre" />
+      <recent name="C:\Users\YzShi\PycharmProjects\car pre\Dictionary" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\YzShi\PycharmProjects\car pre\car pre" />
       <recent name="C:\Users\YzShi\PycharmProjects\car pre\Dictionary" />
     </key>
   </component>
@@ -143,23 +182,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wordCount">
-    <configuration name="_mongo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.wordCloudPlot">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="car pre" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\YzShi\AppData\Local\Programs\Python\Python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\YzShi\PycharmProjects\car pre\Mongo.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -210,22 +249,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dictionary_convert" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="get_cloud" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="car pre" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dictionary" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\YzShi\PycharmProjects\car pre\dictionary_convert.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\YzShi\PycharmProjects\car pre\wordCloudPlot.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wordCloudPlot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="car pre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wordCloudPlot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -256,11 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wordCloudPlot" />
+        <item itemvalue="Python.get_cloud" />
         <item itemvalue="Python.wordCount" />
         <item itemvalue="Python.comment _summery" />
         <item itemvalue="Python.dictionary_convert (1)" />
-        <item itemvalue="Python.dictionary_convert" />
-        <item itemvalue="Python._mongo" />
       </list>
     </recent_temporary>
   </component>
@@ -276,6 +331,7 @@
       <updated>1558160487090</updated>
       <workItem from="1558160488296" duration="13879000" />
       <workItem from="1558177285098" duration="11741000" />
+      <workItem from="1558193134708" duration="5077000" />
     </task>
     <task id="LOCAL-00001" summary="02">
       <created>1558188463743</created>
@@ -291,11 +347,32 @@
       <option name="project" value="LOCAL" />
       <updated>1558189979297</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="02">
+      <created>1558197463695</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558197463696</updated>
+    </task>
+    <task id="LOCAL-00004" summary="02">
+      <created>1558197573862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558197573862</updated>
+    </task>
+    <task id="LOCAL-00005" summary="02">
+      <created>1558198219099</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558198219099</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25620000" />
+    <option name="totallyTimeSpent" value="30697000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,9 +384,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="1913" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16174497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -323,11 +400,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3297587" />
+      <window_info anchor="bottom" id="Python Console" order="11" visible="true" weight="0.39544237" />
+      <window_info anchor="right" x="0" y="0" width="337" height="678" id="Documentation" side_tool="true" weight="0.29798657" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.36241612" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -371,37 +449,11 @@
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary_convert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="132" column="17" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data.js" />
     <entry file="file://$PROJECT_DIR$/Mysql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1408">
           <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commentPre.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -421,10 +473,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mongo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
+        <state relative-caret-position="22">
           <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car2.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wordCount.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -432,6 +487,39 @@
           <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartest.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commentPre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionary_convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="132" column="17" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordCloudPlot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
