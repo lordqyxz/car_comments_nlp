@@ -65,8 +65,8 @@ car_id = '卡罗拉'
 feature = 1
 mask = np.array(Image.open(IMG_SRC))
 frequencies = getWordCount(car_id, feature)
-wordCloud = WordCloud(background_color="aliceblue",font_path='C:\Windows\Fonts\simkai.ttf', max_font_size=50,
-                      relative_scaling=.5, max_words=200,mask=mask)
+wordCloud = WordCloud(background_color="aliceblue",font_path='C:\Windows\Fonts\simkai.ttf', max_font_size=80,
+                      relative_scaling=.5, max_words=150,mask=mask)
 wordCloud.generate_from_frequencies(frequencies)
 plot(wordCloud)
 dbClose()
