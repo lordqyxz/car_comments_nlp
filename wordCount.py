@@ -60,9 +60,10 @@ def wordCount(data):
 
 
 if __name__ == '__main__':
-    # fin = ["Dictionary/%s" % (fname,) for fname in os.listdir("Dictionary")]
-    jieba.load_userdict(['最新车型大全【官方推荐】.txt', '汽车行业专用词汇.txt', '汽车词汇大全【官方推荐】.txt'])
-    data = getComments()
-    word_count_dic = wordCount(data)
-    Mysql.addWordCount(word_count_dic)
-    Mysql.close()
+    import os
+    fin = ["Dictionary/%s" % (fname,) for fname in os.listdir("Dictionary")]
+    jieba.load_userdict(fin)
+    # data = getComments()
+    # word_count_dic = wordCount(data)
+    # Mysql.addWordCount(word_count_dic)
+    # Mysql.close()

@@ -13,7 +13,7 @@ def getAll(num):
     query = {}
     projection = {}
     projection["data.购买车型"] = 1.0
-    cursor = collection.find(query, projection=projection, limit=num, batch_size=BATCH_SIZE)
+    cursor = collection.find(query, projection=projection, batch_size=BATCH_SIZE)
     return cursor
 
 
