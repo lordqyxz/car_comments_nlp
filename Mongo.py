@@ -6,12 +6,13 @@ database = client["car"]
 collection = database["comments"]
 BATCH_SIZE = 200
 
+def connect():
+    return collection
 
 def getAll(num):
     query = {}
     projection = {}
-    projection["car"] = 1.0
-    projection["formatOpinionSet"] = 1.0
+    projection["data.购买车型"] = 1.0
     cursor = collection.find(query, projection=projection, limit=num, batch_size=BATCH_SIZE)
     return cursor
 
