@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-from os import path
-import os
+import iconfig
 from PIL import Image
 import numpy as np
 from wordcloud import WordCloud, ImageColorGenerator
@@ -11,10 +10,10 @@ IMG_SRC = "cartest.png"
 import pymysql
 
 # MySQL配置
-host = "47.102.131.233"
-port = 3306
-user = "root"
-password = "ShiYuzhu.18"
+host = iconfig.mysql['host']
+port = iconfig.mysql['port']
+user = iconfig.mysql['user']
+password = iconfig.mysql['password']
 db = "car"
 
 # 连接MySQL

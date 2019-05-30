@@ -1,5 +1,4 @@
 import Mongo
-import Mysql
 import re
 import jieba
 

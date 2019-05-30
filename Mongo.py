@@ -1,6 +1,6 @@
 from pymongo import MongoClient
-
-url = "mongodb://47.102.131.233:27017/"
+import iconfig
+url = iconfig.mongo['url']
 client = MongoClient(url)
 database = client["car"]
 collection = database["comments"]

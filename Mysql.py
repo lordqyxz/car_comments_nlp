@@ -1,8 +1,11 @@
 import pymysql
+import  iconfig
 
-host = "47.102.131.233"
-user = "root"
-passwd = "ShiYuzhu.18"
+host = iconfig.mysql['host']
+port = iconfig.mysql['port']
+user = iconfig.mysql['user']
+passwd = iconfig.mysql['password']
+
 schema = "car"
 err = "数据库错误"
 
