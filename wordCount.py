@@ -92,12 +92,12 @@ def commentPre():
     # 获取要进行分词的数据
     data = getComments()
     # 进行分词
-    comment_seg = wordSegment(data)
-    # 打印分词结果
-    print(comment_seg)
+    return wordSegment(data)
+
 
 if __name__ == '__main__':
-    commentPre()
+    # 分词并打印分词结果
+    print(commentPre())
     # word_count_dic = wordCount(data)
     # Mysql.addWordCount(word_count_dic)
     # Mysql.close()
