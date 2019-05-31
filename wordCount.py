@@ -70,19 +70,18 @@ def wordCount(data):
 
 def wordSegment(data):
     comment_seg = []
-    i=0
+    i = 0
     for doc in data:
-        i+=1
+        i += 1
         comments = doc['data']
         comment_dic = {}
         for feature in comments['评价']:
             seg_list = segComment(comments['评价'][feature])
-            #去掉停止词，将removeStopWords注释掉可得到包含停止词的结果
+            # 去掉停止词，将removeStopWords注释掉可得到包含停止词的结果
             seg_list = removeStopWords('stop_words.txt', seg_list)
-            comment_dic = {"feature": feature,
-                           "segment": seg_list}
+            comment_dic[feature] = seg_list
             comment_seg.append(comment_dic)
-        if (i%10)== 0:
+        if (i % 10) == 0:
             print(i)
     return comment_seg
 
@@ -96,8 +95,8 @@ if __name__ == '__main__':
     # 获取要进行分词的数据
     data = getComments()
     # 进行分词
-    comment_seg=wordSegment(data)
-    #打印分词结果
+    comment_seg = wordSegment(data)
+    # 打印分词结果
     print(comment_seg)
     # word_count_dic = wordCount(data)
     # Mysql.addWordCount(word_count_dic)
