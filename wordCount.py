@@ -1,7 +1,7 @@
 import Mongo
 import re
 import jieba
-
+import os
 
 def getComments():
     carName = "卡罗拉 2014款 1.6L GL-i 手动"
@@ -85,11 +85,8 @@ def wordSegment(data):
             print(i)
     return comment_seg
 
-
-if __name__ == '__main__':
+def commentPre():
     # 载入词典
-    import os
-
     fin = ["Dictionary/%s" % (fname,) for fname in os.listdir("Dictionary")]
     jieba.load_userdict(fin)
     # 获取要进行分词的数据
@@ -98,6 +95,9 @@ if __name__ == '__main__':
     comment_seg = wordSegment(data)
     # 打印分词结果
     print(comment_seg)
+
+if __name__ == '__main__':
+    commentPre()
     # word_count_dic = wordCount(data)
     # Mysql.addWordCount(word_count_dic)
     # Mysql.close()
