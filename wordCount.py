@@ -2,6 +2,7 @@ import Mongo
 import re
 import jieba
 
+
 def getComments():
     carName = "卡罗拉 2014款 1.6L GL-i 手动"
     return Mongo.getCommentsByCarName(carName)
@@ -14,6 +15,15 @@ def removePunctuation(str):
 def stopWordsList(filepath):
     stopwords = [line.strip() for line in open(filepath, 'r', encoding='utf-8').readlines()]
     return stopwords
+
+
+def removeStopWords(filepath, list):
+    stop_words = stopWordsList(filepath)
+
+    for word in list:
+        if word in stop_words:
+            list.remove(word)
+    return list
 
 
 def segComment(str):
@@ -58,11 +68,37 @@ def wordCount(data):
     return word_count
 
 
+def wordSegment(data):
+    comment_seg = []
+    i=0
+    for doc in data:
+        i+=1
+        comments = doc['data']
+        comment_dic = {}
+        for feature in comments['评价']:
+            seg_list = segComment(comments['评价'][feature])
+            #去掉停止词，将removeStopWords注释掉可得到包含停止词的结果
+            seg_list = removeStopWords('stop_words.txt', seg_list)
+            comment_dic = {"feature": feature,
+                           "segment": seg_list}
+            comment_seg.append(comment_dic)
+        if (i%10)== 0:
+            print(i)
+    return comment_seg
+
+
 if __name__ == '__main__':
+    # 载入词典
     import os
+
     fin = ["Dictionary/%s" % (fname,) for fname in os.listdir("Dictionary")]
     jieba.load_userdict(fin)
-    # data = getComments()
+    # 获取要进行分词的数据
+    data = getComments()
+    # 进行分词
+    comment_seg=wordSegment(data)
+    #打印分词结果
+    print(comment_seg)
     # word_count_dic = wordCount(data)
     # Mysql.addWordCount(word_count_dic)
     # Mysql.close()
